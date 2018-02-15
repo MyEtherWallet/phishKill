@@ -1,0 +1,38 @@
+{
+  "name": "phishkill",
+  "version": "0.1.0",
+  "description": "app to look for phishing sites and report",
+  "main": "index.js",
+  "scripts": {
+    "test-e2e": "nightwatch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyEtherWallet/phishKill.git"
+  },
+  "keywords": [
+    "phishing",
+    "site",
+    "locater",
+    "google",
+    "search",
+    "app",
+    "store"
+  ],
+  "author": "kvhnuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyEtherWallet/phishKill/issues"
+  },
+  "homepage": "https://github.com/MyEtherWallet/phishKill#readme",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "nightwatch": "^0.9.19",
+    "shuffle-array": "^1.0.1",
+    "simple-node-logger": "^0.93.37",
+    "url": "^0.11.0",
+    "webdriverio": "^4.10.2"
+  }
+}
